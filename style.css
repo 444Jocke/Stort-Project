@@ -1,0 +1,26 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: black;
+    font-size: 30px;
+  }
+
+
+#videoBG {
+position:fixed;
+z-index: -1;
+
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG{
+        width:auto;
+        height: 100%;
+    }
+}
