@@ -9,7 +9,7 @@
 
 font
 {
-font-size: 15px;
+font-size: 9px;
 }
 
 
@@ -19,6 +19,7 @@ body {
     font-family: Font;
     color: white;
     padding: 150px
+    
 }
 
 @font-face {
@@ -54,3 +55,16 @@ transform: translate(-50% , -50%);
         height: 100%;
     }
 }
+
+.hide {
+    display: none;
+    
+}
+
+.myDIV:hover + .hide {
+    display: block;
+    color: blue
+}
+
+
+
