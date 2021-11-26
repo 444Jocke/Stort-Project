@@ -91,10 +91,13 @@
                 id="sex"
                 name="sex"> Female </input>                     
             </label>    
+            
             <div class="myDIV">[i]</div>
                 <div class="hide">Your biological sex in your new life.</div>
                 <label for="knowledge">        
         </div> 
+        <p></p>
+
         <div class="form-control">
             <label for="role" id="label-role">
                 Sexuality
@@ -130,23 +133,97 @@
                     placeholder="Height in CM" />
                 </label>
             </div>
-
+            <p></p>
             <div>
-                Keep current face?
-                <div class="myDIV">[i]</div>
-                        <div class="hide">If you choose yes you will keep your current face regardles of the attractiveness level you have chosen.</div>
-                        <label for="knowledge">
-                <input type="radio"
-                     id="knowledge"
-                     name="knowledge">Yes </input>    
+                Keep current face:
+                                <input type="radio"
+                     id="face"
+                     name="face">Yes </input>    
                 </label>
-                     <label for="knowledge">
+                     <label for="face">
                  <input type="radio"
-                 id="knowledge"
-                 name="knowledge"> No </input>
+                 id="face"
+                 name="face"> No </input>
                  </label>
+                 <div class="myDIV">[i]</div>
+                        <div class="hide">If you choose yes you will keep your current face regardles of the attractiveness level and other options you have chosen.</div>
+                        <label for="face">
                 </div>
              </label>
+             <p></p>
+
+             <div>
+             <class="form-control">
+                <label for="role" id="label-role">
+                    Eye Color
+                </label>
+                <select name="role" id="role">'
+                    <option value=""></option>'
+                    <option value="Black">Black</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Green">Green</option>
+                    <option value="Grey">Grey</option>
+                    <option value="Red">Red</option>
+                    <option value="Amber">Amber</option>
+                    
+                </select>
+            </div>
+
+            <div>
+                <class="form-control">
+                   <label for="role" id="label-role">
+                       Skin color:
+                   </label>
+                   <select name="role" id="role">'
+                       <option value=""></option>'
+                       <option value="Black">Black</option>
+                       <option value="Light Dark">Light Dark</option>
+                       <option value="Lightskin">Lightskin</option>
+                       <option value="White">White</option>
+                       <option value="Pale">Pale</option>
+                       <option value="Albino">Albino</option>
+                   </select>
+               </div>
+
+               <div>
+                <class="form-control">
+                   <label for="role" id="label-role">
+                       Hair color:
+                   </label>
+                   <select name="role" id="role">'
+                       <option value=""></option>'
+                       <option value="Blonde">Blonde</option>
+                       <option value="Ginger">Ginger</option>
+                       <option value="Black">Black</option>
+                       <option value="Dark brown">Dark brown</option>
+                       <option value="Light brown">Light brown</option>
+                       <option value="Dark blonde">Dark blonde</option> 
+                       <option value="White">White</option>                      
+                       
+                   </select>
+               </div>
+            
+               <class="form-control">
+            <label for="role" id="label-role">
+                Attractiveness
+            </label>
+            <select name="role" id="role">
+                <option value=""></option>
+                <option value="11">11</option>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+                </select>
+                <p></p>
 
         <div class="form-control">
             <label for="role" id="label-role">
@@ -165,6 +242,7 @@
             <div class="hide">The social class that you will be born into. There is no guarantee that you will stay in the social class you have selected.</div>
             <label for="knowledge">
         </div>
+        <p></p>
 
         <div>
         <label>
@@ -174,15 +252,9 @@
                 placeholder="IQ" />
             </label>
         </div>
+        <p></p>
 
-        <div>
-            <label>
-                Height:
-            <input type="text"
-                    id="Height"
-                    placeholder="Height in CM" />
-                </label>
-            </div>
+       
 
             <class="form-control">
                 <label for="role" id="label-role">
@@ -202,7 +274,12 @@
                     <option value="2">2</option>
                     <option value="1">1</option>
                     <option value="0">0</option>
+                    
+
                 </select>
+                <div class="myDIV">[i]</div>
+            <div class="hide">How lucky you will be in your new life. The higher the number rhe more good things will happen and vice-versa.</div>
+            <label for="knowledge">
             
 
             <class="form-control">
@@ -223,30 +300,119 @@
                     <option value="2">2</option>
                     <option value="1">1</option>
                     <option value="0">0</option>
-                </select>            
+                </select>   
+                <div class="myDIV">[i]</div>
+            <div class="hide">How easily you influence people. The higher the number the more people will be drawn to you and vice-versa</div>
+            <label for="knowledge">
+         
         </label>
-        
+
         <class="form-control">
-            <label for="role" id="label-role">
-                Attractiveness
-            </label>
-            <select name="role" id="role">
-                <option value=""></option>
-                <option value="11">11</option>
-                <option value="10">10</option>
-                <option value="9">9</option>
-                <option value="8">8</option>
-                <option value="7">7</option>
-                <option value="6">6</option>
-                <option value="5">5</option>
-                <option value="4">4</option>
-                <option value="3">3</option>
-                <option value="2">2</option>
-                <option value="1">1</option>
-                <option value="0">0</option>
+                <label for="role" id="label-role">
+                    Natural Strength
+                </label>
+                <select name="role" id="role">
+                    <option value=""></option>
+                    <option value="Superhuman">Superhuman</option>
+                    <option value="Elite">Elite</option>
+                    <option value="Advanced">Advanced</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Average">Average</option>
+                    <option value="Noob">Noob</option>
+                </select>  
+
+
+                <class="form-control">
+                <label for="role" id="label-role">
+                    Endurance
+                </label>
+                <select name="role" id="role">
+                    <option value=""></option>
+                    <option value="Superhuman">Superhuman</option>
+                    <option value="Elite">Elite</option>
+                    <option value="Advanced">Advanced</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Average">Average</option>
+                    <option value="Noob">Noob</option>
                 </select>
-                
-       
+
+                <p></p>
+                <div>
+                    Photographic memory:
+                                    <input type="radio"
+                         id="memory"
+                         name="memory">Yes </input>    
+                    </label>
+                         <label for="memory">
+                     <input type="radio"
+                     id="memory"
+                     name="memory"> No </input>
+                     </label>
+                     <div class="myDIV">[i]</div>
+                            <div class="hide">You will have extraordinary ability to memorise everything.</div>
+                            <label for="memory">
+                    </div>
+                 </label>
+                 <p></p>
+
+                 <p></p>
+                <div>
+                    Savant:
+                                    <input type="radio"
+                         id="Savant"
+                         name="Savant">Yes </input>    
+                    </label>
+                         <label for="Savant">
+                     <input type="radio"
+                     id="Savant"
+                     name="Savant"> No </input>
+                     </label>
+                     <div class="myDIV">[i]</div>
+                            <div class="hide">You will learn things at a very accelerated pace and you can master anything in a very short amount of time.</div>
+                            <label for="Savant">
+                    </div>
+                 </label>
+                 <p></p>
+
+                 <p></p>
+                <div>
+                    Healthy life:
+                                    <input type="radio"
+                         id="Healthy"
+                         name="Healthy">Yes </input>    
+                    </label>
+                         <label for="Healthy">
+                     <input type="radio"
+                     id="Healthy"
+                     name="Healthy"> No </input>
+                     </label>
+                     <div class="myDIV">[i]</div>
+                            <div class="hide">You will not contract any deadly diseases or any other form of serious illness.</div>
+                            <label for="Healthy">
+                    </div>
+                 </label>
+                 <p></p>
+
+                 <p></p>
+                 <div>
+                     Easy Mode:
+                                     <input type="radio"
+                          id="Easy"
+                          name="Easy">Yes </input>    
+                     </label>
+                          <label for="Easy">
+                      <input type="radio"
+                      id="Easy"
+                      name="Easy"> No </input>
+                      </label>
+                      <div class="myDIV">[i]</div>
+                             <div class="hide">If you select easy mode you will very rarely experience any discomfort or hardship in your new life. A lot of things will go your way.</div>
+                             <label for="Easy">
+                     </div>
+                  </label>
+                  <p></p>
+                   
+             
         <div>
        <label for="knowledge">
            Keep current knowledge?
@@ -260,65 +426,15 @@
         id="knowledge"
         name="knowledge"> No </input>             
     </label>
+    <div class="myDIV">[i]</div>
+     <div class="hide">All your knowledge and memories will be transferred into your new life.</div>
+     <label for="knowledge">
     </div>
 
-    <div class="form-control">
-        <label for="role" id="label-role">
-            Sexuality
-        </label>
-        <select name="role" id="role">
-            <option value=""></option>
-            <option value="Heterosexual">Heterosexual</option>
-            <option value="Homosexual">Homosexual</option>
-            <option value="Bisexual">Bisexual</option>
-            <option value="Other">Other</option>
-            </select>
-    </div>
-
-       <div>
-        Keep current face?
-        <div class="myDIV">[i]</div>
-                <div class="hide">If you choose yes you will keep your current face regardles of the attractiveness level you have chosen.</div>
-                <label for="knowledge">
-        <input type="radio"
-             id="knowledge"
-             name="knowledge">Yes </input>    
-        </label>
-             <label for="knowledge">
-         <input type="radio"
-         id="knowledge"
-         name="knowledge"> No </input>
-         </label>
-        </div>
-     </label>
     
-    <label>
-        Year:
-        <input
-            type="text"
-            name="year"
-            placeholder="Year"
-            />
-    </label>
 
-    <label>
-        Birthday:
-        <input
-            type="text"
-            name="Birthday"
-            placeholder="Birthday"
-            />
-    </label>
-
-    <label>
-        location:
-        <input
-            type="text"
-            name="location"
-            placeholder="Location"
-            />
-    </label>
-
+    
+    
         </font>
         </div>
         </form>
