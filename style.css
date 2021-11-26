@@ -12,13 +12,16 @@ font
 font-size: 9px;
 }
 
+.radius{
+    padding: 150px;
+}
 
 
 
 body {
     font-family: Font;
     color: white;
-    padding: px
+   padding: 150px;
     
 }
 
@@ -85,14 +88,7 @@ transform: translate(-50% , -50%);
     color: black;
 }
 
-.topnav a.active {
-    background-color: #04AA6D;
-    Color: white;
-}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+
+
 
