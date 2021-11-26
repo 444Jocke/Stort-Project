@@ -14,7 +14,7 @@
         <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In velit necessitatibus, placeat eius deserunt ex temporibus ullam consequatur reprehenderit quisquam ipsam similique, aspernatur neque accusamus quos culpa eligendi est earum.</h6>
             
         <font>
-
+            
             <label>
                 Name:
                 <input
@@ -35,6 +35,9 @@
                     name="year"
                     placeholder="Year"
                     />
+                    <div class="myDIV">[i]</div>
+                    <div class="hide">The year you will be born in.</div>
+                    <label for="knowledge">
             </label>
 
             <label>
@@ -44,11 +47,38 @@
                     name="Birthday"
                     placeholder="Birthday"
                     />
+                    <div class="myDIV">[i]</div>
+            <div class="hide">Your birthday in your new life. DD/MM</div>
+            <label for="knowledge">
+
             </label>
             </div>
 
-            
+            <div>
+                <label>
+                    country:
+                <input type="text"
+                        id="country"
+                        placeholder="country" />
+                    </label>
+                    <div class="myDIV">[i]</div>
+                    <div class="hide">The country of which you will live in in your new life.</div>
+                    <label for="knowledge">
+                </div>
 
+                <label>
+                    location:
+                    <input
+                        type="text"
+                        name="location"
+                        placeholder="Location"
+                        />
+                        <div class="myDIV">[i]</div>
+            <div class="hide">The location you will be born in. You can get very specific with this option.</div>
+            <label for="knowledge">
+                </label>
+            <p></p>
+            
                 <div>
                <label for="sex">
                    Sex:
@@ -65,18 +95,23 @@
                 <div class="hide">Your biological sex in your new life.</div>
                 <label for="knowledge">        
         </div> 
-
-        <div>
-        <label>
-            country:
-        <input type="text"
-                id="country"
-                placeholder="country" />
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Sexuality
             </label>
-            <div class="myDIV">[i]</div>
-            <div class="hide">The country of which you will live in in your new life.</div>
-            <label for="knowledge">
+            <select name="role" id="role">
+                <option value=""></option>
+                <option value="Heterosexual">Heterosexual</option>
+                <option value="Homosexual">Homosexual</option>
+                <option value="Bisexual">Bisexual</option>
+                <option value="Other">Other</option>
+                </select>
         </div>
+        <p>
+
+        </p>
+
+        
             
         <label>
             ethnicity
@@ -87,6 +122,31 @@
             <div class="hide">Your ethnicity in your new life. You can type in a specified ethnicity or just the color of your skin.</div>
             <label for="knowledge">
         </label>
+        <div>
+            <label>
+                Height:
+            <input type="text"
+                    id="Height"
+                    placeholder="Height in CM" />
+                </label>
+            </div>
+
+            <div>
+                Keep current face?
+                <div class="myDIV">[i]</div>
+                        <div class="hide">If you choose yes you will keep your current face regardles of the attractiveness level you have chosen.</div>
+                        <label for="knowledge">
+                <input type="radio"
+                     id="knowledge"
+                     name="knowledge">Yes </input>    
+                </label>
+                     <label for="knowledge">
+                 <input type="radio"
+                 id="knowledge"
+                 name="knowledge"> No </input>
+                 </label>
+                </div>
+             </label>
 
         <div class="form-control">
             <label for="role" id="label-role">
