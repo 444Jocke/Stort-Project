@@ -14,6 +14,7 @@
         <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In velit necessitatibus, placeat eius deserunt ex temporibus ullam consequatur reprehenderit quisquam ipsam similique, aspernatur neque accusamus quos culpa eligendi est earum.</h6>
             
         <font>
+
             <label>
                 Name:
                 <input
@@ -21,36 +22,72 @@
                     name="name"
                     placeholder="Enter your new name"
                     />
+                    <div class="myDIV">[i]</div>
+                    <div class="hide">Your name in your new life. First name you type in will be your firstname. Last name you type in will be your lastname. Any name typed between the first and last will act as middlenames.</div>
+                    <label for="knowledge">
             </label>
+            
+            <div>
+            <label>
+                Year:
+                <input
+                    type="text"
+                    name="year"
+                    placeholder="Year"
+                    />
+            </label>
+
+            <label>
+                Birthday:
+                <input
+                    type="text"
+                    name="Birthday"
+                    placeholder="Birthday"
+                    />
+            </label>
+            </div>
+
+            
+
                 <div>
                <label for="sex">
+                   Sex:
                    <input type="radio"
                         id="sex"
-                        name="sex">Male </input>
-                        
-               </label>
-            
+                        name="sex">Male </input>                        
+               </label>            
                <label for="sex">
                 <input type="radio"
                 id="sex"
-                name="sex"> Female </input>
-                     
-            </label>
-            
+                name="sex"> Female </input>                     
+            </label>    
+            <div class="myDIV">[i]</div>
+                <div class="hide">Your biological sex in your new life.</div>
+                <label for="knowledge">        
         </div> 
+
+        <div>
         <label>
             country:
         <input type="text"
                 id="country"
                 placeholder="country" />
             </label>
+            <div class="myDIV">[i]</div>
+            <div class="hide">The country of which you will live in in your new life.</div>
+            <label for="knowledge">
+        </div>
             
         <label>
             ethnicity
         <input type="text"
             id="ethnicity"
             placeholder="ethnicity" />
+            <div class="myDIV">[i]</div>
+            <div class="hide">Your ethnicity in your new life. You can type in a specified ethnicity or just the color of your skin.</div>
+            <label for="knowledge">
         </label>
+
         <div class="form-control">
             <label for="role" id="label-role">
                 Social class
@@ -63,9 +100,12 @@
                 <option value="Middle Class">Middle Class</option>
                 <option value="Lower Class">Lower Class</option>
                 <option value="Homeless">Homeless</option>
-
             </select>
+            <div class="myDIV">[i]</div>
+            <div class="hide">The social class that you will be born into. There is no guarantee that you will stay in the social class you have selected.</div>
+            <label for="knowledge">
         </div>
+
         <div>
         <label>
             IQ:
@@ -74,17 +114,19 @@
                 placeholder="IQ" />
             </label>
         </div>
+
         <div>
             <label>
                 Height:
             <input type="text"
                     id="Height"
-                    placeholder="Height" />
+                    placeholder="Height in CM" />
                 </label>
             </div>
-            <div class="form-control">
+
+            <class="form-control">
                 <label for="role" id="label-role">
-                    Luck Level
+                    Luck
                 </label>
                 <select name="role" id="role">'
                     <option value=""></option>'
@@ -101,10 +143,11 @@
                     <option value="1">1</option>
                     <option value="0">0</option>
                 </select>
-            </div>
-            <div class="form-control">
+            
+
+            <class="form-control">
                 <label for="role" id="label-role">
-                    Charisma level
+                    Charisma
                 </label>
                 <select name="role" id="role">
                     <option value=""></option>
@@ -120,25 +163,45 @@
                     <option value="2">2</option>
                     <option value="1">1</option>
                     <option value="0">0</option>
-                </select>
-            </div>
+                </select>            
         </label>
         
+        <class="form-control">
+            <label for="role" id="label-role">
+                Attractiveness
+            </label>
+            <select name="role" id="role">
+                <option value=""></option>
+                <option value="11">11</option>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+                <option value="0">0</option>
+                </select>
+                
+       
         <div>
        <label for="knowledge">
            Keep current knowledge?
            <input type="radio"
                 id="knowledge"
-                name="knowledge">Yes </input>
-                
+                name="knowledge">Yes </input>                
        </label>
     
        <label for="knowledge">
         <input type="radio"
         id="knowledge"
-        name="knowledge"> No </input>
-             
+        name="knowledge"> No </input>             
     </label>
+    </div>
+
     <div class="form-control">
         <label for="role" id="label-role">
             Sexuality
@@ -151,51 +214,50 @@
             <option value="Other">Other</option>
             </select>
     </div>
-    <div class="form-control">
-        <label for="role" id="label-role">
-            Good looks
-        </label>
-        <select name="role" id="role">
-            <option value=""></option>
-            <option value="11">11</option>
-            <option value="10">10</option>
-            <option value="9">9</option>
-            <option value="8">8</option>
-            <option value="7">7</option>
-            <option value="6">6</option>
-            <option value="5">5</option>
-            <option value="4">4</option>
-            <option value="3">3</option>
-            <option value="2">2</option>
-            <option value="1">1</option>
-            <option value="0">0</option>
 
-            
-                    
-        </select>
-    </div>
-   
        <div>
         Keep current face?
-
         <div class="myDIV">[i]</div>
                 <div class="hide">If you choose yes you will keep your current face regardles of the attractiveness level you have chosen.</div>
                 <label for="knowledge">
-
         <input type="radio"
              id="knowledge"
              name="knowledge">Yes </input>    
         </label>
-     
-        <label for="knowledge">
+             <label for="knowledge">
          <input type="radio"
          id="knowledge"
          name="knowledge"> No </input>
          </label>
         </div>
-              
      </label>
-    </div>
+    
+    <label>
+        Year:
+        <input
+            type="text"
+            name="year"
+            placeholder="Year"
+            />
+    </label>
+
+    <label>
+        Birthday:
+        <input
+            type="text"
+            name="Birthday"
+            placeholder="Birthday"
+            />
+    </label>
+
+    <label>
+        location:
+        <input
+            type="text"
+            name="location"
+            placeholder="Location"
+            />
+    </label>
 
         </font>
         </div>
